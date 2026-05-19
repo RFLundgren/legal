@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caldera — Privacy Policy</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f8f9fa;
+      color: #212529;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 48px 24px;
+    }
+    .container { width: 100%; max-width: 680px; }
+    .back {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.875rem;
+      color: #6c757d;
+      text-decoration: none;
+      margin-bottom: 32px;
+    }
+    .back:hover { color: #212529; }
+    .app-header { margin-bottom: 32px; }
+    .app-header h1 { font-size: 1.75rem; font-weight: 700; }
+    .app-header .tagline { color: #6c757d; font-size: 0.95rem; margin-top: 4px; }
+    .meta {
+      display: flex;
+      gap: 24px;
+      margin-top: 12px;
+      font-size: 0.82rem;
+      color: #6c757d;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #e9ecef;
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 16px;
+    }
+    .card h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #212529;
+    }
+    .card p, .card li {
+      font-size: 0.92rem;
+      line-height: 1.7;
+      color: #495057;
+    }
+    .card ul {
+      padding-left: 18px;
+      margin-top: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .highlight {
+      background: #e8f5e9;
+      border: 1px solid #c8e6c9;
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-bottom: 16px;
+      font-size: 0.9rem;
+      color: #2e7d32;
+      line-height: 1.6;
+    }
+    .contact a { color: #1a73e8; text-decoration: none; }
+    .contact a:hover { text-decoration: underline; }
+    footer { margin-top: 40px; font-size: 0.8rem; color: #adb5bd; text-align: center; }
+    footer a { color: #adb5bd; text-decoration: none; }
+    footer a:hover { color: #6c757d; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <a href="../" class="back">&#8592; All Policies</a>
+
+    <div class="app-header">
+      <h1>Caldera</h1>
+      <p class="tagline">Handpan Tuning App for Android</p>
+      <div class="meta">
+        <span>Effective: 19 May 2026</span>
+        <span>Last updated: 19 May 2026</span>
+      </div>
+    </div>
+
+    <div class="highlight">
+      &#10003;&nbsp; Caldera does not collect, store, or transmit any personal data. All audio processing happens entirely on your device.
+    </div>
+
+    <div class="card">
+      <h2>Overview</h2>
+      <p>Caldera is a precision tuning tool for the handpan. This policy explains what data the app accesses, why it needs it, and what happens to it. The short version: nothing leaves your device.</p>
+    </div>
+
+    <div class="card">
+      <h2>Microphone Access</h2>
+      <p>Caldera requests permission to use your device's microphone for one purpose only: real-time acoustic analysis of handpan note fields.</p>
+      <ul>
+        <li>Audio is captured, analysed for pitch and harmonic content, and immediately discarded.</li>
+        <li>No audio is recorded, saved to storage, or transmitted anywhere.</li>
+        <li>Microphone access is only active while you have pressed <strong>Start Tuning</strong>. It stops immediately when you press <strong>Stop</strong> or leave the screen.</li>
+        <li>You can revoke microphone permission at any time in your device's app settings. The app will not function without it, as pitch analysis requires audio input.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Data Stored on Your Device</h2>
+      <p>Caldera saves the following information locally on your device using Android's Preferences DataStore. This data never leaves your device.</p>
+      <ul>
+        <li><strong>App settings</strong> — your chosen scale, reference pitch (440 Hz / 432 Hz), layout mode, visualiser style, and tuning tolerance.</li>
+        <li><strong>Tuning session data</strong> — the status (in tune / warning / out of tune) and cents reading for each note you have measured, stored per scale.</li>
+      </ul>
+      <p style="margin-top: 12px;">This data is used solely to restore your session when you reopen the app. It can be cleared at any time by clearing the app's storage in your device settings, or by uninstalling the app.</p>
+    </div>
+
+    <div class="card">
+      <h2>Data We Do Not Collect</h2>
+      <ul>
+        <li>No personal information (name, email, location, device identifiers).</li>
+        <li>No usage analytics or crash reporting.</li>
+        <li>No advertising identifiers.</li>
+        <li>No data is shared with third parties.</li>
+        <li>No internet connection is required or used by the app.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Third-Party Libraries</h2>
+      <p>Caldera uses <strong>TarsosDSP</strong>, an open-source audio processing library, for pitch detection. TarsosDSP operates entirely on-device and does not collect or transmit any data. No other third-party SDKs, analytics tools, or advertising frameworks are included in the app.</p>
+    </div>
+
+    <div class="card">
+      <h2>Children</h2>
+      <p>Caldera does not collect any personal data from users of any age. The app is not directed at children under 13, but given no data is collected, there are no specific age-related restrictions on its use.</p>
+    </div>
+
+    <div class="card">
+      <h2>Changes to This Policy</h2>
+      <p>If this policy changes in a meaningful way — for example, if a future version of the app introduces analytics or cloud features — this page will be updated and the effective date revised. The policy for the version of the app you are using will always be accessible here.</p>
+    </div>
+
+    <div class="card contact">
+      <h2>Contact</h2>
+      <p>If you have any questions about this privacy policy, please get in touch at <a href="mailto:rflundgren@gmail.com">rflundgren@gmail.com</a>.</p>
+    </div>
+
+    <footer>
+      &copy; 2026 RFLundgren &nbsp;|&nbsp; <a href="../">All Policies</a>
+    </footer>
+
+  </div>
+</body>
+</html>
